@@ -1,0 +1,93 @@
+/* using google font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans:wght@400;700&family=Poppins:wght@400;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header section style */
+
+.header-section{
+    background-color:black ;
+    display: flex;
+    border-radius: 10px;
+    height: 450px;
+}
+.header-section .header-details h1{
+    font-size: 50px;
+    color: white;
+    height: 100px;
+    width: 50%;
+    margin-left: 80px;
+    
+
+}
+
+.header-section .header-details p{
+    color: white;
+    height: 100px;
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 80px;
+
+}
+.watch-live-icon{
+    color: white;
+    height: 30px;
+    width: 106px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 3px;
+    margin-left: 80px;
+    padding: 10px;
+}
+
+.image{
+    margin-right: 200px;
+}
+
+/* main section style */
+.main-section{
+    margin-top:70px
+}
+.match-info a{
+    text-decoration: none;
+}
+.match-info{
+    background-color:black;
+    height:300px;
+    width:220px;
+    border-radius:10px;
+    
+}
+.click-button{
+   height: 50px;
+   width: 150px;
+   text-align: center;
+   border: 1px solid burlywood;
+    /* whenever i click border-radius,the bellow 4 options automatically comes on my mac. couldn't resolve the problem*/ 
+    border-radius:5px;
+    -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   -ms-border-radius:5px;
+   -o-border-radius:5px;
+   background-color: white;
+   font: size 16px;
+   font-weight:700;
+   margin-left:25px;
+
+}
+
+.first-button{
+    margin-top:20px;
+    padding-top: 15px;
+}
+.second-button{
+    margin-top:20px;
+    padding-top:15px;
+}
+.blog-button{
+    background-color:red;
+    margin-top:20px;
+    padding-top: 15px;
+
+}
+
